@@ -1,0 +1,22 @@
+name: ItemEffect
+main: com.github.fluffycop.itemeffect.ItemEffectPlugin
+version: 1.0.0
+author: Fluffycop
+api-version: 1.15
+commands:
+  itemeffect:
+    description: The ItemEffect plugin command
+
+permissions:
+  itemeffect.cmd:
+    default: op
+    description: "/itemeffect"
+  itemeffect.set:
+    default: op
+    description: "/itemeffect set"
+  itemeffect.remove:
+    default: op
+    description: "/itemeffect remove"
+  itemeffect.list:
+    default: op
+    description: "/itemeffect list"

@@ -1,0 +1,15 @@
+itemeffect {
+  set {
+    color brigadier:string single_word {
+      label brigadier:string single_word {
+        effect brigadier:string single_word {
+          intensity brigadier:integer;
+        }
+      }
+    }
+  }
+  remove {
+    label brigadier:string single_word;
+  }
+  list;
+}

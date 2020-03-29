@@ -1,0 +1,13 @@
+# The maximum amount of items that can be equipped with item effects
+# After this limit, players won't be allowed to equip more items with item effects
+max-equipped: 5
+
+# Which slots can have item with item effects equipped
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/EquipmentSlot.html
+allowed-slots:
+  - HAND
+  - OFF_HAND
+  - HEAD
+  - CHEST
+  - LEGS
+  - FEET
